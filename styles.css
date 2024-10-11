@@ -58,6 +58,9 @@ section {
     border-radius: 10px;
 }
 
+#valider {
+    background-color: rgb(129, 240, 147);
+}
 
 .clavier {
     display: flex;
