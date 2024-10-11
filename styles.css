@@ -145,10 +145,10 @@ section {
 }
 
 .case-lettre {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
     border: 1px black solid;
     font-weight: bold;
 }
