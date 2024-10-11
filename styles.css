@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html  {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1728462477594-ce5ffd83cac1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    padding: 5px;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+#title {
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#nouveau {
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(150, 113, 138);
+    border-radius: 10px;
+    width: fit-content;
+    align-self: center;
+}
+
+#grille {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+.clavier {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.ligne {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px;
+}
+
+.touche {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(192, 250, 221);
+  border-radius: 5px;
+}
+
+.touche-invalide {
+    background-color: #e0868e
+}
+
+.ligne-mot {
+    display: flex;
+    justify-content: center;
+    gap: 5px; / Espacement entre les cases */
+}
+
+.case-lettre {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px black solid;
+}
+
+#message-fin {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+section {
+        margin: 50px 0;
+        padding: 0;
+}
+
+.clavier {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 5px;
+        border-radius: 10px;
+}
+
+.ligne {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    padding: 5px;
+  }
+
+
+.touche {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(250, 192, 192);
+  border-radius: 5px;
+}
+
+#grille {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.case-lettre {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px black solid;
+    font-weight: bold;
+}
+
+}
