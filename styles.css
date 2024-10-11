@@ -89,7 +89,7 @@ section {
 .ligne-mot {
     display: flex;
     justify-content: center;
-    gap: 5px; / Espacement entre les cases */
+    gap: 5px;
 }
 
 .case-lettre {
@@ -122,7 +122,7 @@ section {
 
 .ligne {
     display: flex;
-    gap: 3px;
+    gap: 2px;
     justify-content: center;
     padding: 5px;
   }
